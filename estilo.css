@@ -1,24 +1,23 @@
 body {
-  margin: 0px;
+  margin: 0;
   background-color: #aaa;
 }
 
-/*Área do jogo*/
 #dvPainel {
   display: flex;
   height: 50px;
   align-items: center;
 }
 
-.itemPainel {
+.itemPaneil {
   margin: 5px;
 }
 
 #dvJogo {
   width: 960px;
   height: 500px;
-  background-color: #000;
-  border-radius: 5%;
+  border: 1px solid #000;
+  background-color: #2E8B57;
 }
 
 #dvBola {
@@ -27,15 +26,14 @@ body {
   left: 475px;
   width: 20px;
   height: 20px;
-  background-color: #888;
-  border-radius: 100%;
+  background-color: #F4A460;
 }
 
 .barra {
   position: absolute;
   width: 20px;
   height: 140px;
-  background-color: #888;
+  background-color: #4B0082;
   top: 180px;
 }
 
@@ -45,4 +43,16 @@ body {
 
 .direita {
   left: 930px;
+}
+
+.bt {
+
+  background-color: #B22222;
+  color: #fff;
+}
+
+.bt:hover {
+
+  background-color: #3CB371;
+  color: #ff0;
 }

@@ -2,28 +2,31 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ping-Pong</title>
-  <link rel="stylesheet" href="estilo.css">
+  <title>Jogo Pong</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 
 <body>
+
   <div id="dvJogo">
     <div id="dvBola"></div>
     <div id="dvJogador" class="barra esquerda"></div>
-    <div id="dvCpu" class="barra direita"></div>
+    <div id="dvMachine" class="barra direita"></div>
   </div>
   <div id="dvPainel">
-    <div class="itemPainel">
-      <label>Pontos</label>
-      <input type="text" id="txtPontos" value="0" size="10"></input>
+    <div class="itemPaneil">
+      <label>Você</label>
+      <input type="text" id="txtPontosJ" value="0" size="10">
+      <label>Máquina</label>
+      <input type="text" id="txtPontosM" value="0" size="10">
     </div>
-    <div class="itemPainel">
-      <button id="btIniciar">Iniciar</button>
+    <div class="itemPaneil">
+      <button id="btIniciar" class="bt">Iniciar</button>
     </div>
   </div>
+
+  <script type="text/javascript" src="script.js"></script>
 </body>
-<script src="script.js"></script>
 
 </html>
